@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+.body-background{
+    background-size: 100% 100%;
+    /* background-size: cover; */
+    background-image: url("./Imagenes/marvel1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: fantasy;
+}
+/* header{
+    background-color: black;
+    background-image: url(./Imagenes/marvel\ header\ 2.jpg);
+    background-position: center;
+    background-image: fixed;
+    background-repeat: no-repeat;
+} */
+.nav-1 {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 10px 10px 10px ;
+    background-color: rgb(182, 28, 23);
+    margin: 0px 0px 0px 10px;
+}
+.nav-1 a {
+    padding-right: 20px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: fantasy;
+    font-size: 200%;
+    border: 10px;
+    margin-right: -1px;
+}
+
+.nav-1 :hover{
+    color:rgb(243, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+#nav-li a {    
+    padding: 15px 10px 7px 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: fantasy;
+    font-size: 130%;
+} 
+#nav-li :active{
+    color: red;
+    background-color: white;
+}
+#nav-li {
+    display: inline-block;
+    text-align: center;
+} 
+.nav-ul {
+    display: inline-block;
+    float: right;
+    padding-right: 15px;
+}
+.nav-ul :nth-child(n){
+    background-color: rgb(180, 1, 1);
+}
+/* --------------------------------------- */
+
+
+
+.main-section{
+    margin: 20vh;
+    text-align: center;
+}
+
+
+.main-section__text{
+    font-size:  30px;
+    color: aliceblue;
+}
+
+
+.div-boton{
+    margin-top: 30px;
+}
+
+
+.boton {
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(182, 28, 23);
+    border: 5px solid ;
+    border: 7px solid;
+}
+
+
+.boton:hover{
+    opacity:0.5;
+}

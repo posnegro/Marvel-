@@ -1,0 +1,29 @@
+*{
+
+    margin:0;
+    padding:0 ;
+    box-sizing: border-box;
+    
+    }
+body{
+        background-image: url(./imagenes/wallpapersden.com_75835-3840x2160.jpg);
+        background-size: 100% 100%; 
+        background-attachment: fixed;
+    }
+#header-nav{
+    color: orangered;
+    font-family: cursive
+}
+#main-nav{
+    width: 620px;
+}
+.main-nav_item{
+    color: greenyellow;
+}
+.main-nav_item1{
+    color: rgb(214, 212, 212);
+}
+#main-nav_epi1{
+    color: orangered;
+    font-family: cursive
+}

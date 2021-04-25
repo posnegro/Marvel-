@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.body-compl{
+    background-color: rgb(0, 107, 14);
+    color: wheat;
+}
+.header{
+    text-align: center;
+    padding-top: 130px;
+}
+.main{
+    text-align: center;
+}

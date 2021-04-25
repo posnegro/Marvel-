@@ -1,0 +1,91 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#body-f {
+    background-image: url(./imagenes/loki2.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.header-nav{
+    display: inline-block;
+    float: right;
+    list-style: none;
+    padding-right: 15px;
+}
+.navbar-item{
+    padding-left: 20px;
+}
+.header-nav__item{
+    display: inline-block;
+    padding-top: 25px;
+}
+.header-nav__item a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 15px 0px 15px;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+.header-nav__item :active{
+    color: rgb(0, 109, 0);
+}
+.header-nav__item :nth-child(n){
+    /* background-color: rgb(192, 192, 2); */
+}
+#header-nav__item1 a {
+    color: white;
+}
+#header-nav__item1 :active{
+    color: green;
+    background-color: white;
+}
+#header-nav__item1 :nth-child(n){
+    background-color: black;
+}
+
+/*-------------------------------------------------------------------*/
+
+#section-div{
+    text-align: center;
+    padding-top: 130px;
+}
+.section-div1 {
+    color: rgb(1, 82, 1);
+    font-size: 0.6cm;
+}
+.section-div2{
+    padding: 0% 20%;
+}
+.section-div3 a {
+    text-decoration: none;
+    font-size: 30px;
+}
+.section-div3 {
+    padding-top: 1cm;
+    padding-left: 1.5cm;
+} 
+.section-div3 > span {
+    padding-right: 5%;
+} 
+.section-botton > a {
+    padding: 1% 6% 1% 6%;
+}
+.botton {
+    /* border: 5px solid;
+    border: 4px solid; */
+    background-color: rgb(1, 102, 1);
+    padding: 10px 20px;
+    color: yellow;
+    opacity: 0.8;
+}
+.botton2 {
+    /* border: 5px solid;
+    border: 4px solid; */
+    background-color: yellow;
+    padding: 10px 20px;
+    color: rgb(1, 102, 1);
+    opacity: 0.8;
+}
+

@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#body-img{
+    background-image: url(./falcon-y-soldado-del-invierno.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.div1 {
+    display: inline-block;
+    padding: 0px 20px 20px 15px;
+    width: 120px;
+    height: 120px;
+}
+#navbar{
+    display: inline-block;  
+    float: right;
+    list-style: none;
+    padding-right: 15px;
+
+}
+.header-nav-ul{
+    padding-top: 40px;
+}
+.header-nav__item{
+    display: inline-block;
+}
+.header-nav__item a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 15px 0px 15px;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+.header-nav__item :active{
+    color: rgb(255, 255, 255);
+}
+.header-nav__item:nth-child(n){
+    background-color: rgb(206, 8, 8);
+    opacity: 0.8;
+}
+.header-nav__item:nth-child(2n){
+    background-color: rgb(136, 136, 136);
+}
+.header-nav__item:nth-child(3n){
+    background-color: rgb(5, 53, 211);
+    opacity: 0.8;
+}
+.header-nav__item:nth-child(4n){
+    background-color: rgb(153, 153, 153);
+}
+
+/*--------------------------------------------------------------------*/
+.div3 {
+    padding-top: 10%;
+    padding-left: 33%;
+    display: inline-block;
+}
+.div2 {
+    padding-left: 20%;
+    padding-top: 5%;
+}
+.div-item {
+    display: inline-block;
+}
+#div-item1 {
+    padding-right: 20%;
+}

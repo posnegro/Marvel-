@@ -1,0 +1,90 @@
+*{
+
+    margin:0;
+    padding:0 ;
+    box-sizing: border-box;
+    
+    }
+body{
+    background-image: url(./imagenes/wv.jpg);
+    background-size: 100% 100%; 
+    background-attachment: fixed;
+}
+#header{
+    height: 100px;
+     padding: 0px 50px;
+    color: orange;
+}
+#main{
+    padding: 0px 30px;
+    display: inline-block;
+}
+.main-nav1{
+    display: inline-block;
+}
+ /* .main-nav2{ 
+     display: inline-block;
+}  */
+/*#div1
+{
+    width: 300px;
+border: 10px solid rgb(165, 6, 6);
+color: aliceblue;
+}
+#div2
+{
+    width: 300px;
+border: 10px solid rgb(0, 107, 0);
+color: aliceblue;
+}
+#div3
+{
+    width: 300px;
+border: 10px solid rgb(104, 1, 104);
+color: aliceblue;
+}
+#div4
+{
+    width: 300px;
+border: 10px solid rgb(233, 233, 233);
+color: aliceblue;
+}
+#div5
+{
+    width: 300px;
+border: 10px solid rgb(92, 134, 248);
+color: aliceblue;
+}
+#div6
+{
+    width: 300px;
+border: 10px solid rgb(6, 17, 165);
+color: aliceblue;
+} */
+div > p{
+    color: aliceblue;
+    display: inline-block;
+    width: 300px;   
+}
+.main-nav1{
+    border: 10px solid  rgb(146, 3, 3);
+}
+.main-nav2{
+    border: 10px solid  rgb(3, 146, 15)
+}
+.main-nav3{
+    border: 10px solid  rgb(82, 3, 146);
+}
+.main-nav4{
+    border: 10px solid  rgb(191, 247, 235);
+}
+.main-nav5{
+    border: 10px solid  rgb(3, 141, 146);
+}
+.main-nav6{
+    border: 10px solid  rgb(3, 25, 146);
+}
+.Div-pers{
+    height: 100;
+    text-align: left;
+}
